@@ -45,6 +45,7 @@ nav,
 }
 
 .navbar__link:hover {
+  position: relative;
   color: #000000;
   transition: all 0.3s linear;
   font-size: 13px;
@@ -221,7 +222,24 @@ nav,
   color: rgba(131, 136, 143, 0.4);
   padding: 24px 0;
   border-bottom: 1px solid rgba(131, 136, 143, 0.25);
-  transition: all 0.3s linear;
+}
+.plan__item:hover {
+  font-family: "Fraunces";
+  font-size: 24px;
+  font-weight: 900;
+  color: rgba(131, 136, 143, 0.4);
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(131, 136, 143, 0.25);
+  transition: all 0.3s ease;
+}
+.plan__item:active {
+  font-family: "Fraunces";
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(0, 255, 13);
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(131, 136, 143, 0.25);
+  transition: all 0.3s ease;
 }
 
 .plan__num {
@@ -242,7 +260,14 @@ nav,
 .plan__num {
   color: #0e8784;
 }
-
+.plan__num:hover {
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.plan__num:active {
+  color: #09ff00;
+  transition: all 0.3s ease;
+}
 .plan__content {
   width: 730px;
 }
@@ -280,15 +305,17 @@ nav,
   background-color: #f4f1eb;
   padding: 32px 28px 84px;
   border-radius: 8px;
-  transition: all 0.3s linear;
+  transition: all 0.3s ease;
 }
 
 .questions__card:hover {
   background-color: #fdd6ba;
+  transition: all 0.5s ease;
 }
-.questions__card-active {
+
+.questions__card:active {
   background-color: #0e8784;
-  color: white;
+  transition: all 0.5s ease;
 }
 
 .questions__card-title {
@@ -311,7 +338,7 @@ nav,
 
 .questions__card-active .questions__card-title,
 .questions__card-active .questions__card-text {
-  color: #ffffff;
+  color: #000000;
 }
 
 .summary {
@@ -366,6 +393,7 @@ nav,
 }
 
 .questions__btn {
+  position: absolute;
   width: 217px;
   height: 56px;
   background: #66d2cf;
@@ -379,6 +407,31 @@ nav,
   text-align: center;
   border: none;
   color: #fefcf7;
+}
+
+.questions__btn:hover {
+  width: 230px;
+  height: 76px;
+  border: none;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+.questions__btn:active {
+  width: 230px;
+  height: 76px;
+  border: none;
+  background: #00fff7;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 .footer {

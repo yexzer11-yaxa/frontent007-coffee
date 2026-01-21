@@ -114,6 +114,32 @@ nav,
   color: white;
 }
 
+.intro__btn:hover {
+  width: 237px;
+  height: 76px;
+  border: none;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.intro__btn:active {
+  width: 237px;
+  height: 76px;
+  border: none;
+  background: #00fff7;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 19px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
 .collection {
   padding: 100px 0;
   width: 100%;
@@ -154,17 +180,37 @@ nav,
   align-items: center;
 }
 
+.collection__item:hover {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  transition: all 0.6s ease;
+}
+
+.collection__item:active {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background-color: rgb(58, 168, 58);
+}
+
 .collection__img {
   width: 100%;
   width: 250px;
   margin-bottom: 30px;
 }
 
-.collection__img:hover {
+.collection__img:active {
   width: 100%;
-  width: 270px;
+  width: 250px;
   margin-bottom: 30px;
-  transition: all 0.3s linear;
+  transition: all 1s ease;
 }
 
 .collection__name {
@@ -185,6 +231,10 @@ nav,
 
 .promo {
   width: 100%;
+}
+
+.promo__container {
+  position: relative;
 }
 
 .promo__box {
@@ -250,19 +300,43 @@ nav,
 
 .promo__card:nth-child(1) {
   position: absolute;
-  right: 880px;
-  top: 1550px;
+  right: 820px;
+  top: 300px;
   width: 350px;
   height: 320px;
   background-color: #0e8784;
   border-radius: 5px;
   color: white;
+}
+
+.promo__card:nth-child(1):hover {
+  position: absolute;
+  right: 820px;
+  top: 300px;
+  width: 370px;
+  height: 340px;
+  background-color: #0e8784;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.promo__card:nth-child(1):active {
+  position: absolute;
+  right: 820px;
+  top: 300px;
+  width: 350px;
+  height: 320px;
+  background-color: #00fffb;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
 }
 
 .promo__card:nth-child(2) {
   position: absolute;
-  right: 500px;
-  top: 1550px;
+  right: 420px;
+  top: 300px;
   width: 350px;
   height: 320px;
   background-color: #0e8784;
@@ -270,15 +344,63 @@ nav,
   color: white;
 }
 
+.promo__card:nth-child(2):hover {
+  position: absolute;
+  right: 420px;
+  top: 300px;
+  width: 370px;
+  height: 340px;
+  background-color: #0e8784;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.promo__card:nth-child(2):active {
+  position: absolute;
+  right: 420px;
+  top: 300px;
+  width: 350px;
+  height: 340px;
+  background-color: #00fffb;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
 .promo__card:nth-child(3) {
   position: absolute;
-  right: 120px;
-  top: 1550px;
+  right: 30px;
+  top: 300px;
   width: 350px;
   height: 320px;
   background-color: #0e8784;
   border-radius: 5px;
   color: white;
+}
+
+.promo__card:nth-child(3):hover {
+  position: absolute;
+  right: 30px;
+  top: 300px;
+  width: 370px;
+  height: 340px;
+  background-color: #0e8784;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.promo__card:nth-child(3):active {
+  position: absolute;
+  right: 30px;
+  top: 300px;
+  width: 350px;
+  height: 340px;
+  background-color: #00fffb;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
 }
 
 .promo__title-card {
@@ -401,6 +523,8 @@ nav,
 }
 
 .work__btn {
+  position: absolute;
+  top: 2500px;
   align-self: start;
   width: 217px;
   height: 56px;
@@ -412,6 +536,32 @@ nav,
   font-size: 17px;
   color: white;
   margin-top: 20px;
+}
+
+.work__btn:hover {
+  width: 237px;
+  height: 76px;
+  border: none;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.work__btn:active {
+  width: 237px;
+  height: 76px;
+  border: none;
+  background: #00fff7;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 19px;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 .footer {

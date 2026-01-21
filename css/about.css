@@ -235,6 +235,26 @@ nav,
   align-items: start;
   justify-content: start;
   flex-direction: column;
+  width: 300px;
+  height: 250px;
+}
+.work__item:hover {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  background-color: burlywood;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.work__item:active {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  background-color: rgb(255, 145, 0);
+  border-radius: 15px;
+  transition: all 0.3s ease;
 }
 
 .work__title {
